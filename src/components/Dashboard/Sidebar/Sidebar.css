@@ -1,0 +1,99 @@
+.top-box {
+    box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.1);
+    width: 220px;
+}
+
+.background-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 25vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.user-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-avatar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.logout-text {
+    font-weight: bold;
+}
+
+.box {
+    box-shadow: 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button {
+    width: 220px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3ecfc;
+    box-shadow: 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-icons {
+    box-shadow: 3px 0px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar-icons p {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+.sidebar-icons p:hover {
+    background-color: #b3d0ff;
+    cursor: pointer;
+}
+
+.company-avatar {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 1000px;
+
+}
+
+
+
+.company-name {
+    font-weight: bold;
+}
+
+.company-avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
